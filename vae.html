@@ -110,7 +110,7 @@
         <h1>VAE Latent Studio</h1>
         <div class="badges">
           <span class="badge">TensorFlow.js 前端训练</span>
-          <span class="badge">重建 / 采样 / 散点 / 直方图 / 潜空间操场</span>
+          <span class="badge">重建 / 采样 / 散点 / 直方图 / 隐空间操场</span>
         </div>
       </div>
     </section>
@@ -144,7 +144,7 @@
           <div class="latent-box">
             <div class="panel-head">
               <div>
-                <h2 style="margin:0;font-size:16px;">潜空间实时探索</h2>
+                <h2 style="margin:0;font-size:16px;">隐空间实时探索</h2>
                 <p style="margin:4px 0 0;color:var(--muted);font-size:12px;">拖动 8 个维度，直接用解码器生成图像。</p>
               </div>
               <span class="small-pill" id="explorerMode">decoder(z)</span>
@@ -192,7 +192,7 @@
             <div class="chart-card">
               <div class="panel-head">
                 <div>
-                  <h2>2D 潜空间散点图</h2>
+                  <h2>2D 隐空间散点图</h2>
                   <p>取给定两维，以数字标签着色。</p>
                 </div>
                 <span class="small-pill" id="scatterBadge">latent[0] vs latent[1]</span>
@@ -206,7 +206,7 @@
           <div class="panel-body">
             <div class="panel-head">
               <div>
-                <h2>潜变量直方图</h2>
+                <h2>隐变量直方图</h2>
                 <p>对前 600 个样本编码，分别查看隐空间 8 个维度的分布。</p>
               </div>
               <span class="small-pill">latent histograms</span>
@@ -257,7 +257,7 @@
             <div class="manifold-info">
               <div class="panel-head" style="margin-bottom:0;">
                 <div>
-                  <h2>二维潜空间操场</h2>
+                  <h2>二维隐空间操场</h2>
                   <p>固定其余维度，选择两个维度扫描二维网格，直接看数字形状怎样连续变化。</p>
                 </div>
               </div>
